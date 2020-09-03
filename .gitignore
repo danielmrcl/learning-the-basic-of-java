@@ -1,0 +1,4 @@
+# Removing eclipse configuration files
+/.project
+/.classpath
+/.settings/

@@ -2,7 +2,7 @@
 ##### https://www.w3schools.com/java
 
 ### Hello World:
-##### code file: `Hello.java`
+##### code file: `src/Hello.java`
 
 ``` Java
 public class Hello {
@@ -28,7 +28,7 @@ public class Hello {
 ```
 
 ### Variables:
-##### code file: `Variables.java`
+##### code file: `src/Variables.java`
 
 Declare a integer variable:
 
@@ -84,7 +84,7 @@ Examples of **non-primitive** types:
 - `Strings`, `Arrays`, `Classes`, `Interface`, etc.
 
 ### Casting:
-##### code file: `Casting.java`
+##### code file: `src/Casting.java`
 
 **Widening Casting** (automatically) - converting a smaller type to a larger type size:
 - `byte` -> `short` -> `char` -> `int` -> `long` -> `float` -> `double`.  
@@ -149,7 +149,7 @@ Examples of **non-primitive** types:
 ```
 
 ### Strings:
-##### code file: `Strings.java`
+##### code file: `src/Strings.java`
 
 Creating a string:
 ``` Java
@@ -166,7 +166,7 @@ text1.concat(text2); // concatenate two strings
 ```
 
 ### Math:
-##### code file: `Mathematic.java`
+##### code file: `src/Mathematic.java`
 
 Some **Math methods**:
 ``` Java
@@ -183,7 +183,7 @@ Math.random() * 50; // a random number between 0.0 and 50.0
 ```
 
 ### Booleans:
-##### code file: `Booleans.java`
+##### code file: `src/Booleans.java`
 
 Declare a boolean variable:
 ``` Java
@@ -200,7 +200,7 @@ boolean isEqual = 5 == 5; // true
 ```
 
 ### If...else:
-##### code file: `Ifelse.java`
+##### code file: `src/Ifelse.java`
 
 The "if" statements compute one (or more) conditions/expressions and execute a block of code if it is `true`, or skip if it is `false`.
 
