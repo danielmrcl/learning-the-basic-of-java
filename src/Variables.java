@@ -1,4 +1,3 @@
-// Variables in Java
 
 public class Variables {
 	public static void main(String[] args) {
@@ -12,17 +11,28 @@ public class Variables {
 		System.out.println("your fullname: " + fullname);
 
 		// Integers:
-		byte integer = 100;
-		short integer = 10000;
-		int integer = 100000000;
-		long integer = 100000000000L;
+		byte integer1 = 100;
+		short integer2 = 10000;
+		int integer3 = 100000000;
+		long integer4 = 100000000000L;
+
+		System.out.println("integer1: " + integer1);
+		System.out.println("integer2: " + integer2);
+		System.out.println("integer3: " + integer3);
+		System.out.println("integer4: " + integer4);
 
 		// float numbers
-		float decimal = 5.22222f;
-		double decimal = 5.222222222222d;
+		float decimal1 = 5.22222f;
+		double decimal2 = 5.222222222222d;
+
+		System.out.println("decimal1: " + decimal1);
+		System.out.println("decimal2: " + decimal2);
 
 		// scientific numbers (e or E to indicate power of 10):
-		float = 5e3f;
-		double = 6E7d;
+		float decimal3 = 5e3f;
+		double decimal4 = 6E7d;
+
+		System.out.println("decimal3: " + decimal3);
+		System.out.println("decimal4: " + decimal4);
 	}
 }

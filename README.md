@@ -223,4 +223,23 @@ One Line way to use the "if ... else":
 ```
 
 ### Switch:
+##### code file: `src/Switching.java`
+
+- The `switch` expression is evaluated once.
+- The `break` is used to exit after run the code.
+- The `default` is used to run an code if the condition is not in case block.
+	- The last statement (`default`) not need a `break`.
+
+``` Java
+switch(expression) {
+	case x:
+		// code block
+		break;
+	case y:
+		// code block
+		break;
+	default:
+		// code block
+}
+```
 
